@@ -398,6 +398,7 @@ button{
     color: #fff;
 }
 .application__text{
+    width: 465px;
     margin-bottom: 45px;
     color: #fff;
     opacity: 0.6;
