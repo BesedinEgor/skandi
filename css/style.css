@@ -126,11 +126,11 @@ button{
 .about__info{
     display: flex;
     margin-bottom: 20px;
-    margin-left: 60px;
+    margin-left: 105px;
 }
 .about__in{
-    width: 530px;
-    margin-left: 60px;
+    width: 520px;
+    margin-left: 63px;
 }
 .about__info p:first-child{
     margin-bottom: 30px;
@@ -225,17 +225,18 @@ button{
     opacity: 1;
 }
 .btn{
-    margin-left: 450px;
+    
     font-weight:500;
     font-size: 30px;
     line-height: 37px;
     transition:all .3s;
+    text-align: center;
 
 }
 
 .btn:hover{
     transform: translateX(20px);
-    transition:all .3s;
+    transition:all .4s;
 }
 .team{
     background-color:  #E2C4BA;
@@ -283,6 +284,14 @@ button{
     border-radius: 50%;
     text-align: center;
 }
+.team__work-items li:first-child span{
+    position: absolute;
+    left: 29px;
+}
+.team__work-items li:last-child span{
+    position: absolute;
+    left: 24px;
+}
 .team__work-number{
     position: absolute;
     top: 20px;
@@ -328,7 +337,7 @@ button{
     position: absolute;
     border-radius: 50%;
     background: #cc8b86;
-    transition: all ease-out;
+    transition:all .4s;
   }
   
  .arrow-next {
@@ -343,6 +352,7 @@ button{
     position: absolute;
     background: #cc8b86;
     transform: rotate(180deg);
+    transition:all .4s;
   } 
   
   .arrow-prev:hover {
@@ -421,7 +431,9 @@ button{
 .footer__phone{
     margin-right: 45px;
 }
-
+.footer__address{
+     font-style: normal;  /*правка */
+}
 .footer__owner{
     margin-left: auto;
     margin-right: 40px;
