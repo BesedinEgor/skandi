@@ -7,6 +7,9 @@
 a{
     text-decoration: none;
 }
+[id^=section] {
+	margin-bottom: 100%;
+}
 body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -37,6 +40,8 @@ button{
 .header__menu{
     margin-top: 36px;
     display: flex;
+    /* position: fixed;
+    z-index: 2; */
 }
 .header__logo{
     height: 25px;
@@ -338,9 +343,15 @@ button{
 }
 .slick-track{
     display: flex;
+    
 }
 .slick-list{
     overflow: hidden;
+    
+}
+.slider .draggable{
+    width: 870px;
+    margin-left: 185px;
 }
 .slick-arrow{
     position: absolute;
