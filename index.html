@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -32,7 +33,7 @@
                             <a class="header__menu-item--list  title" href="#">Отзывы клиентов</a>
                         </li>
                         <li class="header__menu-item">
-                            <a class="header__menu-item--list  title" href="#">Оставить заявку</a>
+                            <a class="header__menu-item--list  title" href="#application">Оставить заявку</a>
                         </li>
                     </ul>
                 </nav>
@@ -227,39 +228,83 @@
         <div class="container">
           <h2 class="review-title">Отзывы</h2>
           <div class="slider">
-            <a href="#" class="arr-link">
-              <div class="arrow-prev">
-                <img src="img/arrow-slider.svg" alt="arrow-prev">
-              </div>
-            </a>
-            <a href="#" class="arr-link">
-              <div class="arrow-next">
-                <img src="img/arrow-slider.svg" alt="arrow-next">
-              </div>
-            </a>
+              <div class="slider__item">
+                    <blockquote class="slider__review">
+                        <p class="slider__review-text">
+                            «Восторг! Спасибо, за комфортную жизнь. Очень рада, что 
+                            выбрала вашу студию для украшения своего дома.
+                        </p>
+                        <p class="slider__review-text">
+                            Работа шла быстро, было очень приятно общаться и 
+                            взаимодествовайть с сотрудниками. Не ожидала, что это 
+                            будет так легко!
+                        </p>
+                        <p class="slider__review-text">
+                            Буду советовать и своим друзьям к вам обращаться!»
+                        </p>
+                        <p class="slider__review-text">
+                            АННА БЕЛОВСКАЯ
+                        </p>
+                    </blockquote>
+                <div class="slider-img">
+                    <img class="img-item" src="img/reviews1.png" alt="interior">
+                    <img class="img-item" src="img/reviews2.png" alt="interior">
+                </div> 
+            </div>
+
             <div class="slider__item">
-              <blockquote class="slider__text">
-                <p class="slider__review">«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.
-                </p>
-                <p class="slider__review">Работа шла быстро, было очень приятно общаться и взаимодествовайть
-                с сотрудниками. Не ожидала, что это будет так легко!
-                </p>
-                <p class="slider__review">
-                Буду советовать и своим друзьям к вам обращаться!»
-                </p>
-                <p class="slider__review">АННА БЕЛОВСКАЯ</p>
-              </blockquote>
-              <div class="slider-img">
+                <blockquote class="slider__review">
+                    <p class="slider__review-text">
+                        «Восторг! Спасибо, за комфортную жизнь. Очень рада, что 
+                        выбрала вашу студию для украшения своего дома.
+                    </p>
+                    <p class="slider__review-text">
+                        Работа шла быстро, было очень приятно общаться и 
+                        взаимодествовайть с сотрудниками. Не ожидала, что это 
+                        будет так легко!
+                    </p>
+                    <p class="slider__review-text">
+                        Буду советовать и своим друзьям к вам обращаться!»
+                    </p>
+                    <p class="slider__review-text">
+                        АННА БЕЛОВСКАЯ
+                    </p>
+                </blockquote>
+            <div class="slider-img">
                 <img class="img-item" src="img/reviews1.png" alt="interior">
                 <img class="img-item" src="img/reviews2.png" alt="interior">
-              </div>
+            </div> 
+        </div>
+
+        <div class="slider__item">
+            <blockquote class="slider__review">
+                <p class="slider__review-text">
+                    «Восторг! Спасибо, за комфортную жизнь. Очень рада, что 
+                    выбрала вашу студию для украшения своего дома.
+                </p>
+                <p class="slider__review-text">
+                    Работа шла быстро, было очень приятно общаться и 
+                    взаимодествовайть с сотрудниками. Не ожидала, что это 
+                    будет так легко!
+                </p>
+                <p class="slider__review-text">
+                    Буду советовать и своим друзьям к вам обращаться!»
+                </p>
+                <p class="slider__review-text">
+                    АННА БЕЛОВСКАЯ
+                </p>
+            </blockquote>
+        <div class="slider-img">
+            <img class="img-item" src="img/reviews1.png" alt="interior">
+            <img class="img-item" src="img/reviews2.png" alt="interior">
+        </div> 
+    </div>
+                
             </div>
-            <div class="slider__item"></div>
-            <div class="slider__item"></div>
           </div>
       </section>
     
-    <section class="application">
+    <section class="application" id="application">
         <div class="container">
             <div class="application__inner">
             <div class="application__item">
@@ -297,6 +342,9 @@
             </ul>
         </div>
     </footer>
-    
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
