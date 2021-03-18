@@ -359,6 +359,7 @@ button{
     background-position: center;
     background-color: #CC8B86;
     transition:all .4s;
+    z-index: 1;
 }
 .slick-prev:hover{
     background-color: #cc8b86b4;
