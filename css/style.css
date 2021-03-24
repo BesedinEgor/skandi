@@ -489,74 +489,161 @@ button{
     margin-right: 40px;
 }
 
-
-/* @media (max-width: 1250px) {
+@media (max-width: 550px) {
+    .container{
+        padding: 0 10px;
+    }
     .header__menu{
-        display: block;
-    }
-    .header__menu-inner{
-        margin-left: 50%;
-    }
-    .header__menu-item{
-        padding: 5px;
-    }
-    .header__logo-title{
-        position: absolute;
-        vertical-align: center;
-    }
-    .header__menu-list{
-        padding-left: 20px;
-    }
-    .header__phone{
-        display: none;
-    }
-}
-@media (max-width: 950px) {
-    .header__menu-list{
-        padding-left: 10px;
-    }
-    .header__menu-items{
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-   
-    .header__phone{
-        position: absolute;
-        top: 260px;
-    }
-}
-@media (max-width: 560px) {
-    .header{
-        margin-bottom: 50px;
-    }
-    .header__menu{
-        width: 100%;
+        flex-direction: column;
     }
     .header__menu-inner{
-       margin: 0 auto;
-
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
     }
     .header__logo-title{
-        font-weight: 500;
+        margin: 0;
     }
     .header__menu-items{
         display: flex;
         flex-direction: column;
+        margin: 0px 0px 15px 0px;
+    }
+    .header__menu-item{
+        margin: 0;
     }
     .header__phone{
-        display: block;
-        margin: 12% 33%;
-        font-size: 16px;
-        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        margin: 0;
     }
     .header__main{
-        background: url("../img/header-logo.png") no-repeat;
+        background: url("../img/header-logo.jpg") no-repeat;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 36px;
     }
     .header__main-title{
-        text-align: center;
-        font-weight: 500;
-        font-size: 20px;
-        padding-top: 200px;
+       width: auto;
+       padding-top: 340px;
+       font-size: 30px;
+       text-align: center;
+       line-height: 40px;
+       font-weight: 500;
+       margin: 0 auto;
+       margin-bottom: 10px;
     }
-} */
+    .header__main-text{
+        width: auto;
+        text-align: center;
+        font-size: 16px;
+    }
+    .header__main-btn{
+        display: block;
+        margin: 0 auto;
+    }
+    .about__title{
+        font-size: 25px;
+        margin: 20px 0;
+    }
+    .about__info{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .about__image{
+        margin-bottom: 10px;
+    }
+    .about__in{
+        width: auto;
+        margin: 0;
+        text-align: justify;
+        font-size: 16px;
+    }
+    .about__info-text{
+        margin-bottom: 30px;
+    }
+    .info__inner{
+        margin: 0;
+        padding: 0;
+    }
+    .info__items{
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0;
+    }
+    .info__item{
+        margin-bottom: 20px;
+        line-height: 20px;
+        font-size: 30px;
+    }
+    .info__item span{
+        font-size: 40px;
+    }
+    .projects__btn{
+        font-size: 16px;
+    }
+    .projects__btn-arrow{
+       height: 9px;
+    }
+    .projects__title{
+        font-size: 25px;
+        font-weight: 500;
+        text-align: center;
+        margin: -50px 0 20px 0;
+    }
+    .projects__inner{
+        display: flex;
+        flex-direction: column;
+    }
+    .projects__items{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .projects__item,
+    .project__item-link img{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+    .work__hover-title{
+        font-size: 20px;
+    }
+    .work__hover-text{
+        font-size: 16px;
+        text-align: center;
+    }
+    .team__title,
+    .team__work{
+        font-size: 25px;
+        font-weight: 500;
+        text-align: center;
+        padding: 20px 0;
+        margin: 0;
+    }
+    .team__items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .team__work-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .team__work-item{
+        margin-bottom: 20px;
+    }
+    .team__work-rules{
+        margin: 0px auto 10px;
+    }
+    .team__work-text,
+    .team__text{
+        font-size: 16px;
+    }
+}
